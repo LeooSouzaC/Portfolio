@@ -1,0 +1,77 @@
+body, html {
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    font-weight: 25px;
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+}
+
+.works {
+    background-color: rgba(214, 214, 214, 0.611);
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    border: 10px solid #daa520;
+    border-style: ridge;
+    border-radius: 20px;
+}
+
+.works a{
+    margin-left: 30%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+a img {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #daa520;
+    border-radius: 50%;
+    border-style: ridge;
+}
+
+.works p {
+    font-family: 'Press Start 2P';
+    padding: 20px;
+    line-height: 17px;
+}
+
+a img:hover {
+    width: 120px;
+    height: 120px;
+}
+
+.back {
+    margin: 70px;
+}
+
+.back a {
+    background-color: #daa520;
+    padding: 15px;
+    border: 5px solid #ffbf00;
+    border-radius: 8px;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+
+.back a:hover {
+    border: 5px solid black;
+    padding: 18px;
+}

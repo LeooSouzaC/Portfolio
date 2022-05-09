@@ -1,0 +1,99 @@
+body, html {
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.contact {
+    width: 50%;
+    height: 300px;
+    background-color: rgba(228, 186, 114, 0.679);
+    border: 10px solid rgb(228, 186, 114);
+    padding: 20px;
+    margin: 30px;
+    float: left;
+}
+
+ul li {
+    font-family: 'Press Start 2P';
+    font-weight: 20px;
+    color: black;
+    line-height: 30px;
+}
+
+li p {
+    color: blue;
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    font-weight: 25px;
+    color: black;
+}
+
+.contactImg {
+    background-color: rgba(228, 186, 114, 0.679);
+    border: 10px solid rgb(228, 186, 114);
+    float: left;
+    width: 340px;
+    height: 340px;
+    margin: 30px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.contactImg img {
+    width: 240px;
+    height: 240px;
+    padding: 30px;
+}
+
+.congratulations {
+    display: flex;
+    background-color: rgba(228, 186, 114, 0.679);
+    border: 10px solid rgb(228, 186, 114);
+    width: auto;
+    margin: 30px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.congratulations img {
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+.congratulations p {
+    font-family: 'Press Start 2P';
+    font-weight: 25px;
+    color: black;
+    padding: 35px;
+}
+
+.back {
+    margin: 30px;
+    margin-top: 40px;
+}
+
+.back a {
+    background-color: #daa520;
+    padding: 15px;
+    border: 5px solid #ffbf00;
+    border-radius: 8px;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+
+.back a:hover {
+    border: 5px solid black;
+    padding: 18px;
+}

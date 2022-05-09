@@ -1,0 +1,52 @@
+body, html {
+    background-image: url(imagens/pixel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    line-height: 30px;
+}
+
+.cardWrapper {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -670px;
+    margin-top: -350px;
+    text-align: center;
+}
+
+.cardResume {
+    text-align: center;
+    padding: 25px;
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 14px;
+    line-height: 20px;
+}    
+
+.firstBtn {
+    text-decoration: none;
+    border: 7px solid #ffbf00;
+    border-style: dashed;
+    background-color: #daa520;
+    color: white;
+    border-radius: 12px;
+    padding: 8px;
+    top: 20%;
+    font-family: 'Press Start 2P';
+    box-shadow: 5px 5px 5px black;
+}
+
+.firstBtn:hover {
+    border: 8px solid black;
+    padding: 15px;
+    border-style: dashed;
+    font-size: 20px;
+}
+

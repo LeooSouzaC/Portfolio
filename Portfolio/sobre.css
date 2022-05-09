@@ -1,0 +1,96 @@
+body, html {
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.resume{
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid green;
+    background-color: rgba(9, 113, 9, 0.756);
+    padding: 20px;
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+.picture {
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid green;
+    background-color: rgba(9, 113, 9, 0.756);
+    border-radius: 50%;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.picture img {
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+}
+
+h2 {
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid green;
+    background-color: rgba(9, 113, 9, 0.756);
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    width: 42px;
+    height: 42px;
+    margin-left: 10px;
+}
+
+.back {
+    margin: 20px;
+}
+
+.back a {
+    background-color: #daa520;
+    padding: 15px;
+    border: 5px solid #ffbf00;
+    border-radius: 8px;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+
+.back a:hover {
+    border: 5px solid black;
+    padding: 18px;
+}
